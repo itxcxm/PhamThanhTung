@@ -1,0 +1,16 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss --postcss -i ./index.css -o ./main.css",
+    "watch": "npx tailwindcss --postcss  -i ./index.css -o ./main.css --watch",
+    "build" : "NODE_ENV=production npx tailwindcss --postcss -i ./index.css -o ./main.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^3.0.0"
+  }
+}

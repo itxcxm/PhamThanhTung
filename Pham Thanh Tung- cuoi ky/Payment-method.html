@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="">
+    <title>Payment method</title>
+</head>
+  <div>
+      <header class="bg-black">
+          <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+              <a href="index.html" class="-m-1.5 p-1.5 flex">
+                <span class="sr-only">Your Company</span>
+                <img class="h-4 w-auto" src="logo1.png" alt="">\
+              </a>
+            </div>
+            <div class="lg:hidden">
+              <button onclick="toggleTable()" type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                <span class="sr-only">Open main menu</span>
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">          
+              <a href="geforce-now.html" class="hover:text-green-600 text-sm/6 font-semibold text-white">GeForce NOW</a>
+              <a href="ubisoftplus.html" class="hover:text-green-600 text-sm/6 font-semibold text-white">Ubisoft+</a>
+              <a href="onmo.html" class="hover:text-green-600 text-sm/6 font-semibold text-white">Mobile Play</a>
+              <a href="instant-play.html" class="hover:text-green-600 text-sm/6 font-semibold text-white">Instant Play!</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+              <a href="login.html" class="text-sm/6 font-semibold text-green-500">Log in <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </nav>
+          <div id="myTable" class="hidden" role="dialog" aria-modal="true">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+            <div class="fixed inset-0 z-10"></div>
+            <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+              <div class="flex items-center justify-between">
+                <a href="#" class="-m-1.5 p-1.5">
+                  <span class="sr-only">Your Company</span>
+                  <img class="h-8 w-auto" src="logo1" alt="">
+                </a>
+                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" onclick="toggleTable()">
+                  <span class="sr-only">Close menu</span>
+                  <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+              <div class="mt-6 flow-root">
+                <div class="-my-6 divide-y divide-gray-500/10">
+                  <div class="space-y-2 py-6">
+                    <div class="-mx-3">                       
+                    </div>
+                    <a href="geforce-now.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">GeForce NOW</a>
+                    <a href="ubisoftplus.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">Ubisoft+</a>
+                    <a href="onmo.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">Mobile Play</a>
+                    <a href="instant-play.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">Instant Play!</a>
+                  </div>
+                  <div class="py-6">
+                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-50">Help & support</a>
+                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-50">Contact us</a>
+                    <a href="create-account.html" class="-mx-3 block border-2 rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-50">Sign up</a>
+                    <a href="login.html" class="-mx-3 mt-2 block border-2 rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-50">Login</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>      
+  </div>
+    <!-- main -->
+    <div class="bg-black">
+        <div class="container mx-auto">
+            <!-- back -->
+            <div class="">
+                <a href="geforce-now.html">
+                    <div class="flex items-center"><img class="size-5" src="./img/left-arrow.png" alt=""><h1 class="text-green-500 ml-2">Back</h1></div>
+                </a>
+            </div>
+            <div><h1 class="text-xl font-bold text-white mb-2">Voucher code</h1></div>
+            <!--  -->
+            <div class="lg:grid grid-cols-3 gap-4">
+                <div class="text-white col-span-2">
+                    <!-- voucher code -->
+                    <div>
+                        <div class="bg-slate-700 rounded-xl p-7">
+                            <h1>Please enter your voucher code here.</h1>
+                            <div><input class="w-full rounded-md p-2" type="text"></div>
+                        </div>
+                    </div>
+                    <div class="mt-3 mb-3">
+                        <div><h1 class="text-xl font-bold mb-4">Payment method</h1></div>
+                        <!-- visa mastercard -->
+                        <div class="bg-slate-700 rounded-lg p-7">
+                            <div class="flex justify-between">
+                                <div class="flex items-center"><input class="size-5 mr-5" type="checkbox" id="checkbox1" checked onclick="handleCheckboxClick(this)"><div><h1>Debit / Credit card</h1></div></div>
+                                <div class="flex"><img class="size-11 mr-2" src="img/CannonballResource.Visa.svg" alt=""><img class="size-11 " src="img/CannonballResource.mastercard.svg" alt=""></div>
+                            </div>
+                            <!--  -->
+                            <form class="" id="box1">
+                              <div class="mb-4 font-bold">
+                                <label class="block text-white mb-2" for="email">Name on card</span></label>
+                                <input class="focus:outline-none focus:border-green-500 w-full p-2 border border-gray-700 rounded bg-white text-black" type="email" id="email" placeholder="">
+                              </div>
+                              <div class="mb-4 font-bold">
+                                <label class="block text-white mb-2" for="email">Card number</span></label>
+                                <input class="focus:outline-none focus:border-green-500 w-full p-2 border border-gray-700 rounded bg-white text-black" type="email" id="email" placeholder="**** **** **** ****">
+                              </div>
+                              <div class="lg:flex  font-bold">
+                                <div class="mb-4 flex-1 lg:mr-10">
+                                    <label class="block text-white mb-2" for="display-name">Expiration month / year</span></label>
+                                    <input class="focus:outline-none focus:border-green-500 w-full p-2 border border-gray-700 rounded bg-white text-black" type="texttext" id="customDateInput" onchange="formatDate()" placeholder="MM/YY">                     
+                                </div>
+                                <div class="mb-4 flex-1 font-bold">
+                                    <label class="block text-white mb-2" for="gender">CVV</label>
+                                    <input class="focus:outline-none focus:border-green-500 w-full p-2 border border-gray-700 rounded bg-white text-black" type="text" id="display-name" placeholder="***">  
+                                </div>
+                              </div>
+                              <div class="flex text-sm mt-10">
+                                <input class="size-5 mr-3" type="checkbox"> <span>By placing your order, you agree to our <a class="text-green-500" href="#">T&Cs</a>.</span>
+                              </div>
+                              <div class="flex justify-center mt-5">
+                                <button class="text-slate-900 bg-green-500 font-bold p-2 pl-40 pr-40 rounded-md " type="submit">Checkout</button>
+                              </div>
+                            </form>
+                        </div>
+                        <!-- paypal -->
+                        <div class="bg-slate-700 rounded-lg p-7 mt-5">
+                            <div class="flex justify-between">
+                                <div class="flex items-center"><input class="size-5 mr-5" type="checkbox" id="checkbox2" onclick="handleCheckboxClick(this)"><div><h1>Pay with Paypal</h1></div></div>
+                                <div class="flex"><img class="size-11 mr-2" src="img/CannonballResource.paypal.svg" alt=""></div>
+                            </div>
+                            <!--  -->
+                            <div class="mt-5" id="box2">
+                              <div class="bg-black text-xs text-white p-3 rounded-lg">
+                                <span>PayPal transactions are authorized through the PayPal website. Click the “Continue” button below to open a new web browser window to initiate the transaction.</span>
+                              </div>
+                              <div class="flex text-sm mt-10">
+                                <input class="size-5 mr-3" type="checkbox"> <span>By placing your order, you agree to our <a class="text-green-500" href="#">T&Cs</a>.</span>
+                              </div>
+                              <div class="flex justify-center mt-5">
+                                <button class="text-slate-900 bg-orange-300 font-bold pl-32 pr-32 rounded-md " type="submit"><img class="size-11" src="img/paypal.png" alt=""></button>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- gg pay -->
+                        <div class="bg-slate-700 rounded-lg p-7 mt-5">
+                            <div class="flex justify-between">
+                                <div class="flex items-center"><input class="size-5 mr-5" type="checkbox" id="checkbox3" onclick="handleCheckboxClick(this)"><div><h1>Pay with Google Pay</h1></div></div>
+                                <div class="flex"><img class="size-11 mr-2" src="img/CannonballResource.GPay.svg" alt=""></div>
+                            </div>
+                            <!--  -->
+                            <div id="box3">
+                              <div class="flex text-sm mt-10" >
+                                <input class="size-5 mr-3" type="checkbox"> <span>By placing your order, you agree to our <a class="text-green-500" href="#">T&Cs</a>.</span>
+                              </div>
+                              <div class="flex justify-center mt-5">
+                                <button class="text-slate-900 bg-white font-bold pl-32 pr-32 rounded-md " type="submit"><img class="size-11" src="img/google-pay.png" alt=""></button>
+                              </div>
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                </div>
+                <!-- Summary -->
+                <div class="text-white">
+                    <div class="bg-slate-700 rounded-xl p-5">
+                        <div>   
+                            <div class="text-2xl font-bold"><h1>Summary</h1></div>
+                            <div class="flex justify-between font-bold text-sm mt-5">
+                                <div>GeForce NOW Priority Lite Monthly Plan</div><div>S$8.99</div>
+                            </div>
+                        </div>
+                        <div class="font-bold border-t border-b mt-8 pt-5 pb-5 mb-3">
+                            <div class="text-xl flex justify-between">
+                                <div>Due today</div><div>S$8.99</div>
+                            </div>
+                            <div class="text-sm flex justify-between">
+                                <div>From 19 Mar 2025</div><div>$8.99/month</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footers -->
+<div>
+    <footer class="bg-black text-white py-6 mt-auto">
+      <div class="container mx-auto flex flex-wrap justify-between items-center"> 
+        <div class="mt-5 mb-5"><img src="./img/CannonballResource.gamehubplus.png" alt=""></div>
+        <div class="container mx-auto flex items-center">
+          <div class="w-full md:w-1/3 text-center md:text-left mb-4 md:mb-0"> 
+            <h3 class="text-lg text-green-500">Company</h3> 
+            <a href="about-us.html">About GameHub+</a><br>
+            <a href="#">Terms & Conditions</a><br>
+          </div> 
+          <div class="w-full md:w-1/3 text-center md:text-left mb-4 md:mb-0"> 
+            <h3 class="text-lg text-green-500">Support</h3> 
+            <a href="#">FAQ</a><br>
+            <a href="#">Sign up</a><br>
+            <a href="#">Report Vulnerability</a><br>
+            <a href="#">Contact Us</a><br>
+          </div> 
+          <div class="w-full md:w-1/3 text-center md:text-left mb-4 md:mb-0"> 
+            <h3 class="text-lg text-green-500">Quick Links</h3> 
+            <a href="download.html">Download GeForce NOW</a><br>
+            <a href="#">Play Now with ONMO</a><br>
+            <a href="#">Play Now with Instant Play!</a><br>
+            <a href="#">Gift Card Redemption</a><br>
+            <a href="#">Gift Card Purchase</a><br>
+          </div> 
+          <div class="w-full md:w-1/3 text-center md:text-left mb-4 md:mb-0"> 
+            <h3 class="text-lg text-green-500">We Accept</h3> 
+            <div class="lg:flex ">
+              <img class="w-10 h-7" src="./img/CannonballResource.mastercard.svg" alt="">
+              <img class="w-10 h-7" src="./img/CannonballResource.Visa.svg" alt="">
+              <img class="w-10 h-7" src="./img/CannonballResource.paypal.svg" alt="">
+              <img class="w-10 h-7" src="./img/CannonballResource.APPLEPAY.svg" alt="">
+              <img class="w-10 h-7" src="./img/CannonballResource.GPay2.png" alt="">
+            </div>
+          </div> 
+        </div>
+        </div>
+      </div>
+    </div>
+    <script>
+
+      function toggleTable() { 
+        var table = document.getElementById('myTable'); 
+        table.classList.toggle('hidden'); 
+      }
+
+      function luaChon(){
+          for(i=1;1<4;i++){
+          const name =`checkbox${i}`
+          const box = `box${i}`
+          const check = document.getElementById(name).checked;
+          const hin = document.getElementById(box);
+          if(check){
+            hin.classList.remove('hidden');
+          }else{
+            hin.classList.add('hidden');
+          }
+        }
+      }
+
+      luaChon();
+
+      function handleCheckboxClick(clickedCheckbox) {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                if (checkbox !== clickedCheckbox) {
+                    checkbox.checked = false;
+                }
+            });
+            luaChon();
+        }
+    </script> 
+</body>
+</html>

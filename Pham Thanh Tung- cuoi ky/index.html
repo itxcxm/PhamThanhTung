@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="">
+    <title>GameHub+</title>
+</head>
+  <div>
+      <header class="bg-black">
+          <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+              <a href="index.html" class="-m-1.5 p-1.5 flex">
+                <span class="sr-only">Your Company</span>
+                <img class="h-4 w-auto" src="logo1.png" alt="">\
+              </a>
+            </div>
+            <div class="lg:hidden">
+              <button onclick="toggleTable()" type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                <span class="sr-only">Open main menu</span>
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">          
+              <a href="geforce-now.html" class="hover:text-green-600 text-sm/6 font-semibold text-white">GeForce NOW</a>
+              <a href="ubisoftplus.html" class="hover:text-green-600 text-sm/6 font-semibold text-white">Ubisoft+</a>
+              <a href="onmo.html" class="hover:text-green-600 text-sm/6 font-semibold text-white">Mobile Play</a>
+              <a href="instant-play.html" class="hover:text-green-600 text-sm/6 font-semibold text-white">Instant Play!</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+              <a href="login.html" class="text-sm/6 font-semibold text-green-500">Log in <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </nav>
+          <div id="myTable" class="hidden" role="dialog" aria-modal="true">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+            <div class="fixed inset-0 z-10"></div>
+            <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+              <div class="flex items-center justify-between">
+                <a href="#" class="-m-1.5 p-1.5">
+                  <span class="sr-only">Your Company</span>
+                  <img class="h-8 w-auto" src="logo1" alt="">
+                </a>
+                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" onclick="toggleTable()">
+                  <span class="sr-only">Close menu</span>
+                  <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+              <div class="mt-6 flow-root">
+                <div class="-my-6 divide-y divide-gray-500/10">
+                  <div class="space-y-2 py-6">
+                    <div class="-mx-3">                       
+                    </div>
+                    <a href="geforce-now.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">GeForce NOW</a>
+                    <a href="ubisoftplus.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">Ubisoft+</a>
+                    <a href="onmo.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">Mobile Play</a>
+                    <a href="instant-play.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">Instant Play!</a>
+                  </div>
+                  <div class="py-6">
+                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-50">Help & support</a>
+                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-50">Contact us</a>
+                    <a href="create-account.html" class="-mx-3 block border-2 rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-50">Sign up</a>
+                    <a href="login.html" class="-mx-3 mt-2 block border-2 rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-50">Login</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>      
+  </div>
+    <!-- main -->
+  <div class="relative"><img src="https://corporate.starhub.com/content/dam/gfn/homepage/webbanner2.jpg" alt=""></div>
+  <div class="bg-slate-800">
+    <div class="container mx-auto px-6 py-16">
+        <div class="mb-16 ">
+          <h3 class="text-3xl font-bold text-white mb-8">Choose how you want to play</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div><img src="./img/geforcenow.geforcenow_choose.png" alt="" class="w-full h-full object-cover"></div>
+              
+              
+                  <div><img src="./img/geforcenow.ubisoft_Choose.png" alt="" class="w-full h-full object-cover"></div>
+                  
+              
+                  <div><img src="./img/geforcenow.mobileplay_choose.png" alt="" class="w-full h-full object-cover"></div>
+                  
+              
+                  <div><img src="./img/geforcenow.instantplay_choose.png" alt="" class="w-full h-full object-cover"></div>
+                
+          </div>
+      </div>
+    </div>
+    <div class="bg-green-900 text-white p-4 flex justify-center items-center">
+      <div><span class="mr-5">Redeem your GameHub+ Gift Card and play right away!</span></div>
+      <a href="redeem.html" class="bg-green-500 text-white py-2 px-4 rounded">Redeem now</a>
+    </div>
+    <div class="bg-slate-800 mt-16 mb-16">
+      <div class="container mx-auto">
+        <h3 class="text-3xl font-bold text-white mb-8">Follow us on Instagram</h3>
+        <div class= "md:flex">
+          <div class="bg-black m-2">
+            <img src="./img/World-of-tanks.jpg" alt="">
+            <div class="m-6">
+              <p class="text-white font-bold"> ⚔️ Ready for battle, Commanders? World of Tanks brings the Vikings event to GeForce NOW! 🛡️</p>
+            </div>
+          </div>
+          <div class="bg-black m-2">
+            <img src="./img/Empire-of-Ants.jpg" alt="">
+            <div class="m-6">
+              <p class="text-white font-bold"> ⚔️ Ready for battle, Commanders? World of Tanks brings the Vikings event to GeForce NOW! 🛡️</p>
+            </div>
+          </div>
+          <div class="bg-black m-2">
+            <img src="./img/Planet-Coaster-2.jpg" alt="">
+            <div class="m-6">
+              <p class="text-white font-bold"> ⚔️ Ready for battle, Commanders? World of Tanks brings the Vikings event to GeForce NOW! 🛡️</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- footers -->
+    <div>
+    <footer class="bg-black text-white py-6 mt-auto">
+      <div class="container mx-auto flex flex-wrap justify-between items-center"> 
+        <div class="mt-5 mb-5"><img src="./img/CannonballResource.gamehubplus.png" alt=""></div>
+        <div class="container mx-auto flex items-center">
+          <div class="w-full md:w-1/3 text-center md:text-left mb-4 md:mb-0"> 
+            <h3 class="text-lg text-green-500">Company</h3> 
+            <a href="about-us.html">About GameHub+</a><br>
+            <a href="#">Terms & Conditions</a><br>
+          </div> 
+          <div class="w-full md:w-1/3 text-center md:text-left mb-4 md:mb-0"> 
+            <h3 class="text-lg text-green-500">Support</h3> 
+            <a href="#">FAQ</a><br>
+            <a href="#">Sign up</a><br>
+            <a href="#">Report Vulnerability</a><br>
+            <a href="#">Contact Us</a><br>
+          </div> 
+          <div class="w-full md:w-1/3 text-center md:text-left mb-4 md:mb-0"> 
+            <h3 class="text-lg text-green-500">Quick Links</h3> 
+            <a href="download.html">Download GeForce NOW</a><br>
+            <a href="#">Play Now with ONMO</a><br>
+            <a href="#">Play Now with Instant Play!</a><br>
+            <a href="#">Gift Card Redemption</a><br>
+            <a href="#">Gift Card Purchase</a><br>
+          </div> 
+          <div class="w-full md:w-1/3 text-center md:text-left mb-4 md:mb-0"> 
+            <h3 class="text-lg text-green-500">We Accept</h3> 
+            <div class="lg:flex ">
+              <img class="w-10 h-7" src="./img/CannonballResource.mastercard.svg" alt="">
+              <img class="w-10 h-7" src="./img/CannonballResource.Visa.svg" alt="">
+              <img class="w-10 h-7" src="./img/CannonballResource.paypal.svg" alt="">
+              <img class="w-10 h-7" src="./img/CannonballResource.APPLEPAY.svg" alt="">
+              <img class="w-10 h-7" src="./img/CannonballResource.GPay2.png" alt="">
+            </div>
+          </div> 
+        </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function toggleTable() { 
+        var table = document.getElementById('myTable'); 
+        table.classList.toggle('hidden'); 
+      }
+    </script> 
+</body>
+</html>
