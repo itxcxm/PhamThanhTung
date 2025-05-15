@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.register-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-form label {
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.register-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.register-form select{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.register-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #0056b3;
+}
+
+.container-product{
+  padding:0 200px 0 200px;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex-wrap: wrap;
+}
+
+.products-list-ul{
+  margin: 2px;
+  margin-top: 20px;
+  list-style: none;
+  display: block;
+  flex: 25%;  
+  border: black solid;
+  padding: 20px;
+  border-radius: 20px;
+
+
+}
